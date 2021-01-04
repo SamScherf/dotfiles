@@ -1,0 +1,3 @@
+!Remap Left/Right to Page up/Down
+keycode 166 = Prior
+keycode 167 = Next

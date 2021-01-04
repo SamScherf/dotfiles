@@ -12,4 +12,9 @@ the plugins and monokai as the color scheme
 
 ### XBindKeys
 
-XBindKeys is started when x is started and uses alsautils to make the volume up and down buttons work
+XBindKeys is started by xinitrc and uses alsautils to make the volume up and down buttons work
+
+### Xmodmap
+
+Xmodmap is started by xinitrc and remaps the next/back buttons found near the arrow keys on my X200T 
+to function as page up and page down buttons
