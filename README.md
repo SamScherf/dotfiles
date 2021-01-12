@@ -10,6 +10,8 @@ suckless programs like dwm, slstatus, and slock.
 Vim is configured to be used as an IDE and general text editor. These dot files use vim plug to manage
 the plugins and monokai as the color scheme
 
+When you first install these files, run "PlugInstall" in vim to install all the plugins
+
 ### XBindKeys
 
 XBindKeys is started by xinitrc and uses alsautils to make the volume up and down buttons work
