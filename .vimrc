@@ -16,6 +16,9 @@ Plug 'Townk/vim-autoclose'
 " File browser
 Plug 'preservim/nerdtree'
 
+" Debugger
+Plug 'puremourning/vimspector'
+
 call plug#end()
 
 
@@ -52,3 +55,7 @@ let g:syntastic_plaintex_checkers = ["lacheck"]
 
 " Nerdtree config
 map <C-n> :NERDTreeToggle<CR>
+
+" Debugger config
+let g:vimspector_install_gadgets = ['vscode-cpptools']
+let g:vimspector_enable_mappings = 'HUMAN'
