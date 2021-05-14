@@ -7,5 +7,8 @@ exec xbindkeys &
 # Start slstatus
 exec slstatus &
 
+# Start nm-applet
+exec nm-applet &
+
 # Start dwm
 exec dwm

@@ -6,3 +6,6 @@ XF86AudioRaiseVolume
 "amixer set Master 2%-"
 XF86AudioLowerVolume
 
+# Rotate Screen
+"/bin/bash $HOME/X200T/rotate_screen_cw.sh"
+XF86TaskPane
