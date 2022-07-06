@@ -17,6 +17,6 @@ fi
 
 # Put your fun stuff here.
 
-export EDITOR='vi'
-export VISUAL='vi'
+export EDITOR='vim'
+export VISUAL='vim'
 set -o vi
